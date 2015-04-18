@@ -14,6 +14,9 @@
 		740EC7FE1ADAFE6500A59CE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740EC7FD1ADAFE6500A59CE1 /* Images.xcassets */; };
 		740EC8011ADAFE6500A59CE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740EC7FF1ADAFE6500A59CE1 /* LaunchScreen.xib */; };
 		740EC80D1ADAFE6500A59CE1 /* CarburTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EC80C1ADAFE6500A59CE1 /* CarburTests.m */; };
+		740EC8171ADB0EBD00A59CE1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740EC8161ADB0EBD00A59CE1 /* Media.xcassets */; };
+		740EC81A1ADB106900A59CE1 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 740EC8181ADB106900A59CE1 /* key.png */; };
+		740EC81B1ADB106900A59CE1 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 740EC8191ADB106900A59CE1 /* person.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		740EC8061ADAFE6500A59CE1 /* CarburTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarburTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740EC80B1ADAFE6500A59CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740EC80C1ADAFE6500A59CE1 /* CarburTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarburTests.m; sourceTree = "<group>"; };
+		740EC8161ADB0EBD00A59CE1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		740EC8181ADB106900A59CE1 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = Carbur/Images.xcassets/key.png; sourceTree = "<group>"; };
+		740EC8191ADB106900A59CE1 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = person.png; path = Carbur/Images.xcassets/person.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,8 @@
 		740EC7E41ADAFE6500A59CE1 = {
 			isa = PBXGroup;
 			children = (
+				740EC8181ADB106900A59CE1 /* key.png */,
+				740EC8191ADB106900A59CE1 /* person.png */,
 				740EC7EF1ADAFE6500A59CE1 /* Carbur */,
 				740EC8091ADAFE6500A59CE1 /* CarburTests */,
 				740EC7EE1ADAFE6500A59CE1 /* Products */,
@@ -86,6 +94,7 @@
 				740EC7F71ADAFE6500A59CE1 /* ViewController.h */,
 				740EC7F81ADAFE6500A59CE1 /* ViewController.m */,
 				740EC7FA1ADAFE6500A59CE1 /* Main.storyboard */,
+				740EC8161ADB0EBD00A59CE1 /* Media.xcassets */,
 				740EC7FD1ADAFE6500A59CE1 /* Images.xcassets */,
 				740EC7FF1ADAFE6500A59CE1 /* LaunchScreen.xib */,
 				740EC7F01ADAFE6500A59CE1 /* Supporting Files */,
@@ -199,8 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EC81B1ADB106900A59CE1 /* person.png in Resources */,
+				740EC81A1ADB106900A59CE1 /* key.png in Resources */,
 				740EC7FC1ADAFE6500A59CE1 /* Main.storyboard in Resources */,
 				740EC8011ADAFE6500A59CE1 /* LaunchScreen.xib in Resources */,
+				740EC8171ADB0EBD00A59CE1 /* Media.xcassets in Resources */,
 				740EC7FE1ADAFE6500A59CE1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

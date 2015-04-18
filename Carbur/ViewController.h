@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource>
+{
+IBOutlet UILabel *myLabel;
+IBOutlet UIPickerView *myPicker;
 
-
+    NSArray *dataArray;
+}
 @end
 
